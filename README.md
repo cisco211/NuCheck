@@ -21,7 +21,7 @@ This extension also supports dark mode.
 1. Install the extension in your browser.
 2. Click the `NuCheck` icon in your toolbar.
 3. Select the desired action.
-4. Paste the code into the validator text field using `Ctrl+V` (or `Cmd+V`)
+4. Paste the code into the validator text field using `Ctrl+V` (or `Cmd+V`).
 5. Press the `Check` button.
 
 ## License
