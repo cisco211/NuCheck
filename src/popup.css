@@ -1,0 +1,68 @@
+/* Parameters */
+:root
+{
+	--margin-btn: 5px;
+	--padding: 10px;
+	--radius: 4px;
+	--width: 150px;
+}
+
+/* Colors (Default) */
+:root
+{
+	--bg-body: #2b2b2b;
+	--bg-btn: #444444;
+	--border-color: #666666;
+	--hover-color: #007bff;
+	--text-color: #ffffff;
+}
+
+/* Colors (Dark Theme) */
+@media (prefers-color-scheme: light)
+{
+	:root
+	{
+		--bg-body: #f4f4f4;
+		--bg-btn: #ffffff;
+		--text-color: #333333;
+		--border-color: #cccccc;
+		--hover-color: #007bff;
+	}
+}
+
+/* Content */
+body
+{
+	background-color: var(--bg-body);
+	color: var(--text-color);
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+	gap: var(--margin-btn);
+	margin: 0;
+	padding: var(--padding);
+	width: var(--width);
+}
+
+/* Buttons */
+button
+{
+	align-items: center;
+	background-color: var(--bg-btn);
+	border: 1px solid var(--border-color);
+	border-radius: var(--radius);
+	color: var(--text-color);
+	cursor: pointer;
+	display: flex;
+	font-weight: bold;
+	justify-content: center;
+	margin-bottom: 0;
+	padding: 10px 0;
+	width: 100%;
+}
+button:hover
+{
+	background-color: var(--hover-color);
+	border-color: var(--hover-color);
+	color: white;
+}
